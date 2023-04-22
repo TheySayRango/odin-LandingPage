@@ -5,4 +5,5 @@ The design TOP provides comes in the form of 2 images: one is an image of the co
 
 Believe it!
 
-https://cdn.statically.io/gh/TheOdinProject/curriculum/81a5d553f4073e593d23a6ab00d50eef8620796d/foundations/html_css/project/imgs/01.png
+![Design Image 1](https://cdn.statically.io/gh/TheOdinProject/curriculum/81a5d553f4073e593d23a6ab00d50eef8620796d/foundations/html_css/project/imgs/01.png "Design Image 1")
+
