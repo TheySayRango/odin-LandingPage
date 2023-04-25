@@ -1,0 +1,246 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    margin: 0;
+    min-width: 800px;
+    min-height: 900px;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.header, .footer{
+    min-height: 50px;
+    max-height: 50px;
+    background-color: #1f2937;
+
+}
+
+.flex-container{
+    min-height: 180px;    
+    flex: auto;
+}
+
+.header .cont-1, .section-1 .cont-1{
+    width: 65%;
+    height: 100%;
+}
+/*HTML Structure*/
+
+/*Header*/
+.header{
+    display: flex;
+    justify-content: center;
+}
+.header .cont-1{
+    display: flex;
+    justify-content: space-between;
+}
+.header .cont-1 h1{
+    align-self: center;
+    font-size: 24px;
+    color: #f9faf8;
+}
+.header .cont-2{
+    display: flex;
+    align-items: center;
+}
+.header .cont-1 .right-links ul{
+    
+    list-style-type: none;
+    display: flex;
+    gap: 1em;
+}
+.header .cont-1 .right-links ul a{
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
+}
+/*Header*/
+
+/*Section-1*/
+.flex-container.section-1{
+    border-top: 1px solid #e5e7eb;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    min-height: 450px;
+}
+
+.section-1 .cont-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    gap: 6em;
+}
+.section-1 .cont-1 .left-group{
+    display: flex;
+    flex-direction: column;
+    
+}
+.section-1 .cont-1 .left-group h2{
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: bolder;
+    margin: 0;
+}
+.section-1 .cont-1 .left-group p{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.section-1 .cont-1 .left-group button{
+    width: 100px;
+    height: 30px;
+    background-color: #3882f6;
+    color: white;
+    border-radius: 8px;
+    border: 0;
+}
+.section-1 .cont-1 img{
+   width: 50%;
+   height: 70%;
+}
+/*Section-1*/
+
+
+/*section-2*/
+.flex-container.section-2{
+    min-height: 400px;
+}
+.flex-container.section-2 .cont-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.flex-container.section-2 .cont-1 h2{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+.flex-container.section-2 .cont-1 .boxes{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+}
+.flex-container.section-2 .cont-1 .boxes .box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 170px;
+}
+.flex-container.section-2 .cont-1 .boxes .box div{
+    
+    width: 100%;
+    height: 125px;
+
+    border-radius: 8px;
+}
+.flex-container.section-2 .cont-1 .boxes .box div img{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+.flex-container.section-2 .cont-1 .boxes .box p{
+    
+    text-align: center;
+    font-size: 18px;
+    color: #1f2937;
+
+    
+}
+/*Section-2*/
+
+
+
+/*Section-3*/
+.flex-container.section-3{
+    background-color: #e5e7eb;
+    min-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex-container.section-3 .cont-1{
+    width: 700px;
+    height: 60%;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+.flex-container.section-3 .cont-1 p{
+    font-size: 32px;
+    color: #1f2937;
+    font-style: italic;
+    font-weight: 300;
+    margin: 0;
+}
+.flex-container.section-3 .cont-1 h3{
+    align-self: flex-end;
+    margin: 0;
+}
+/*Section-3*/
+
+
+
+
+
+/*Section-4*/
+.flex-container.section-4{
+    min-height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flex-container.section-4 .cont-1{
+    width: 700px;
+    height: 40%;
+
+    background-color: #3882f6;
+    border-radius: 8px;
+    
+    display: flex;
+    
+    justify-content: space-between;
+    align-items: center;
+    
+    padding: 0 100px 0 100px;
+
+}
+.flex-container.section-4 .cont-1 div{
+    color: white;
+}
+.flex-container.section-4 .cont-1 h2{
+    margin: 0;
+}
+.flex-container.section-4 .cont-1 p{
+    margin: 0;
+}
+.flex-container.section-4 .cont-1 button{
+    width: 100px;
+    height: 30px;
+    background-color: #3882f6;
+    color: white;
+    border-radius: 8px;
+    border: 2px solid white;
+}
+
+
+
+
+
+
+/*Footer*/
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: small;
+}
+/*Footer*/
+
